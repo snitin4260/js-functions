@@ -13,11 +13,11 @@
  *
  */
 
-let promise = new Promise((res, rej) => {
-  res(5); // either resolve with value or resolve with rpomise
-});
+// let promise = new Promise((res, rej) => {
+//   res(5); // either resolve with value or resolve with rpomise
+// });
 
-promise.then((val) => {}).catch((val) => {});
+// promise.then((val) => {}).catch((val) => {});
 
 const STATE = {
   PENDING: "PENDING",
