@@ -19,7 +19,7 @@ function deepCopy(obj) {
     result = Array.isArray(obj) ? [] : {};
     for (let key in obj) {
       const value = obj[key];
-      result[key] = deepCopy(obj[key]);
+      result[key] = deepCopy(value);
     }
   }
 
