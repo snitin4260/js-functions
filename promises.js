@@ -48,7 +48,7 @@ class MyPromise {
     }
     if (value instanceof MyPromise) {
       /*
-        * the reolved/rejected function was called with a promise value
+        * the resolved/rejected function was called with a promise value
         * so we need to wait unitl the new "value" promise is resolved/rejected
         * to set the state and value . So that is why we need to return the function or
         * else state and value would be set
